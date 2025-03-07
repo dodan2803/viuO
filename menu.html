@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+      body {
+          background-color: #371B1B;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, sans-serif;
+      }
+    .gallery {
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 2vw;
+        padding: 10px;
+
+    }
+    .image-container {
+        display: inline-block;
+        width: 300px;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .image-container:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+      @media (max-width: 768px) {
+          .gallery {
+              grid-template-columns: repeat(3, 1fr);
+          }
+      }
+
+      @media (max-width: 480px) {
+          .gallery {
+              grid-template-columns: repeat(2, 1fr);
+          }
+      }
+      .pink-button {
+          background-color: pink;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 50px;
+          text-align: center;
+          cursor: pointer;
+          font-size: 16px;
+          font-weight: bold;
+          margin-left: 49%;
+      }
+
+      .pink-button:hover {
+          background-color: #ff69b4;
+      }
+
+  </style>
+</head>
+<body>
+<div class="gallery">
+    <div class="image-container"><img src="Image/z6384947107220_3577d70dec6464d0fdb8c5e2e41ddd27.jpg" height="1334" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947108123_5931c3175673a5e18df99e509805e2b4.jpg" height="1442" width="1080"/></div>
+    <div class="image-container"><img src="Image/z6384947114995_97629aed04e9fd865ff3db5ae1ea820c.jpg" height="1920" width="2560"/></div>
+    <div class="image-container"><img src="Image/z6384947116171_af99fc670101b3cf9812092fe1e9af37.jpg" height="1241" width="734"/></div>
+    <div class="image-container"><img src="Image/z6384947128001_609bb604e6bccc57de24bf1f578259a5.jpg" height="1536" width="2048"/></div>
+    <div class="image-container"><img src="Image/z6384947131987_7a5f8d99fc13afc511ddad0019c15d69.jpg" height="1020" width="1020"/></div>
+    <div class="image-container"><img src="Image/z6384947139863_edb21b363e0f3e4edb38e89158634606.jpg" height="1440" width="1440"/></div>
+    <div class="image-container"><img src="Image/z6384947140558_7a7d8d872bd36602c8a6eb2cca07f001.jpg" height="1920" width="2560"/></div>
+    <div class="image-container"><img src="Image/z6384947143557_ed9d34cbee7a9a1307130353723f29e8.jpg" height="1827" width="1170"/></div>
+    <div class="image-container"><img src="Image/z6384947147845_81c7b0eb3be425947695a22234d8fe7f.jpg" height="1440" width="1080"/></div>
+    <div class="image-container"><img src="Image/z6384947148101_827ad64e5060a9fa74b40cca8afe8355.jpg" height="1536" width="2048"/></div>
+    <div class="image-container"><img src="Image/z6384947156803_878110fee027cb8893e603520ec258f0.jpg" height="1536" width="2048"/></div>
+    <div class="image-container"><img src="Image/z6384947158440_24f83b9e6e02ee2bd6c43ddd1d02e499.jpg" height="2048" width="1536"/></div>
+    <div class="image-container"><img src="Image/z6384947435927_be762f48e85ddef2cc63ba963f295e84.jpg" height="1000" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947159763_2c9c89819c20883de249c23c279e5dd1.jpg" height="2559" width="1705"/></div>
+    <div class="image-container"><img src="Image/z6384947167489_b41c31b204837a5dfea4c0407576d315.jpg" height="2495" width="2262"/></div>
+    <div class="image-container"><img src="Image/z6384947170060_c2537f2b4de1c7a72f1d1f4f0e94054b.jpg" height="960" width="1280"/></div>
+    <div class="image-container"><img src="Image/z6384947186042_bf6614be9753077ca5b6575cc277439b.jpg" height="2082" width="1170"/></div>
+    <div class="image-container"><img src="Image/z6384947200295_fa588a80915b47fdb59b171fc33fed6c.jpg" height="1168" width="1170"/></div>
+    <div class="image-container"><img src="Image/z6384947226564_7bf3e4d89bb3b3e158aa06c7f4b83181.jpg" height="2560" width="1920"/></div>
+    <div class="image-container"><img src="Image/z6384947251348_c686edf53c917271b91d1d4f3753c067.jpg" height="1334" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947280524_f738cd9b5e23248f43ead66d5b47022f.jpg" height="2048" width="1536"/></div>
+    <div class="image-container"><img src="Image/z6384947296946_fb290779b29696595739e8534cbd0873.jpg" height="1334" width="518"/></div>
+    <div class="image-container"><img src="Image/z6384947309031_317111a9b67da54422e6febf6da0f548.jpg" height="2048" width="1536"/></div>
+    <div class="image-container"><img src="Image/z6384947325038_6550075209321b577ec1f6efb3b7300a.jpg" height="1334" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947357270_31fe281fd0b645d37022ae89e0ce33d6.jpg" height="2048" width="1152"/></div>
+    <div class="image-container"><img src="Image/z6384947379221_5159a32cfee45a06fdc85276eaa20482.jpg" height="2048" width="1312"/></div>
+    <div class="image-container"><img src="Image/z6384947392218_baaaf3d6127778a239795429e55115ef.jpg" height="2082" width="1170"/></div>
+    <div class="image-container"><img src="Image/z6384947409178_64a58c344495c285ce8529522c2eeac6.jpg" height="965" width="542"/></div>
+    <div class="image-container"><img src="Image/z6384947446680_4f75f00f537ed88f9a4a72d7f528899b.jpg" height="1048" width="751"/></div>
+    <div class="image-container"><img src="Image/z6384947474326_23173f29b033abd1070a678905c0fc4c.jpg" height="2048" width="1536"/></div>
+    <div class="image-container"><img src="Image/z6384947515180_43ddf7515071de3d7d018a5ca735e377.jpg" height="2560" width="1920"/></div>
+    <div class="image-container"><img src="Image/z6384947554244_10664058ade11624b3b63e1b2273744b.jpg" height="2560" width="1930"/></div>
+    <div class="image-container"><img src="Image/z6384947570652_1907a3d09cbc171ef9f2a5848f71f220.jpg" height="1334" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947586011_d3c12111d4270b1f0fe7df00a2c78de4.jpg" height="2560" width="1920"/></div>
+    <div class="image-container"><img src="Image/z6384947600676_57f2077580a65836d3414b27c213f7c7.jpg" height="1440" width="1080"/></div>
+    <div class="image-container"><img src="Image/z6384947657820_c639e928705ed7f99298c518102e6782.jpg" height="2560" width="1920"/></div>
+    <div class="image-container"><img src="Image/z6384947684917_a6de652f556fa4bfe126b05a1e84581a.jpg" height="2048" width="1536"/></div>
+    <div class="image-container"><img src="Image/z6384947685746_2265a3ea1a03c724df86295fd1a97a2e.jpg" height="789" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947723590_7d381d0ce8f83d06c290bff8049b0933.jpg" height="2560" width="1824"/></div>
+    <div class="image-container"><img src="Image/z6384947745417_1524b01acef591831af938330e54e814.jpg" height="1920" width="2560"/></div>
+    <div class="image-container"><img src="Image/z6384947751392_136e2441ba7bf9d842fa2bfce0529d05.jpg" height="1023" width="683"/></div>
+    <div class="image-container"><img src="Image/z6384947761096_3f682b5c470a299a7f278efb234566cd.jpg" height="2560" width="1706"/></div>
+    <div class="image-container"><img src="Image/z6384947769944_9bd7a82298f201d81763654a70ae333e.jpg" height="1250" width="750"/></div>
+    <div class="image-container"><img src="Image/z6384947801331_01d0bde962666ba02d4c4fc324b2e3a5.jpg" height="2559" width="1705"/></div>
+    <div class="image-container"><img src="Image/z6384956878228_f5e1c883d834635c2b4681fc2468a73a.jpg" height="2048" width="1312"/></div>
+    <div class="image-container"><img src="Image/z6384956878434_243b3b39566d90d5ceb7bca33439c755.jpg" height="1617" width="1080"/></div>
+    <div class="image-container"><img src="Image/z6384956888549_2467b55393a3a91e455bcbffd17bda37.jpg" height="2048" width="1367"/></div>
+</div>
+<button class="pink-button" onclick="window.location.href='card.html'">Continue</button>
+</body>
+</html>
